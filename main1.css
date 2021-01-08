@@ -1,0 +1,536 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+  height: 20vh;
+  width: 100%;      
+  margin-bottom: 80vh;
+}
+.header>.header_nav{
+    background-color: white;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+
+}
+
+.logo{
+    display: flex;
+    height: 20vh;
+    width: 97%;
+    align-items: center;
+   
+}
+.logo>img{
+    width: 100%;
+    height: 100%
+;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header>.header_phot{
+    background: url('home.svg') center no-repeat;
+    width: 100%;
+    display: flex;
+    height: 90vh;
+}.menu{
+
+    justify-content: space-around;
+
+
+}
+.menu>ul{
+
+    height: 100%;
+    width: 100%;
+
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: space-between !important;
+ 
+    
+    
+    
+    
+}
+ul>li a{
+    width: 100% !important;
+    
+    font-family: Montserrat;
+    font-weight: 500;
+font-style: normal;
+text-decoration: none;
+color: #4F4F4F;
+font-size: 1.1em;
+
+    
+
+    
+}
+
+.iconss_bir{
+    
+    display: flex;
+    align-items: center;
+    
+    height: 20vh;
+}
+.iconss_eki{    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20vh;
+}
+.iconss_bir>.icon_p{
+    display: flex;
+    flex-direction: column;
+    font-family: Proxima Nova;
+font-style: normal;
+font-weight: normal;
+
+font-size: 0.675em;
+/* identical to box height */
+line-height: 2vh !important;
+text-transform: capitalize;
+}
+.icon_p>.icon_p_bir{
+
+    font-size: 1.1em;
+
+}
+.icon_p>.icon_p_eki{
+    width: 100%;
+    font-size: 1.1em;
+
+}
+.iconss_bir>.icon{
+    background: #E4181F;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+height: 5.4vh;
+margin: 0% !important;
+
+padding: 0;
+width: 18%;
+}
+.icon>img{
+    display: flex;
+    width: 70%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_b>img{
+    display: flex;
+    width: 70%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_p{
+    width: 100%;
+    justify-content: space-between;
+}
+
+.iconss_eki>.icon_b{
+    background: #E4181F;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+height: 5.4vh;
+width: 22.75% !important;
+}
+.iconss_eki>.icon_p{
+
+    display: flex;
+    flex-direction: column;
+    font-family: Proxima Nova;
+font-style: normal;
+font-weight: normal;
+
+font-size: 0.675em;
+/* identical to box height */
+line-height: 2vh !important;
+text-transform: capitalize;
+}
+
+
+
+.icon_p_ekki{
+    font-family: Roboto;
+    color: #4F4F4F;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.90em;
+    line-height: 16px;
+}
+
+
+.header_phot>.page{
+padding-left: 11%;
+width: 89%;
+
+flex-direction: column;
+display: flex;
+}
+.page>.ph_text{
+    margin-top: 13%;
+    width: 83%;
+    margin-bottom: 2%;
+
+}
+.ph_text>p{
+    color: white;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 3em;
+line-height: 9vh;
+}
+
+
+.page>.ph_text_off{
+margin-bottom: 10vh;
+    width: 34%;
+}
+.ph_text_off>p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 1.49em;
+line-height: 4.5vh;
+
+color: #FFFFFF;
+}
+.page>.ph_submit{
+    
+    background: #D4272D;
+        box-sizing: border-box;
+
+    border-radius: 0.7em;
+    
+    display: flex;
+    border: solid 1px;
+    border-color:  white;
+    align-items: center;
+    box-sizing: border-box;
+
+    justify-content: center;
+    height: 7vh;
+    width: 25%;
+    
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 1em;
+line-height: 2vh;
+color: white;
+/* identical to box height */
+
+text-align: center;
+}
+.section{
+    
+
+    margin-bottom: 20vh;
+    background-color: red;
+    display: block;
+
+
+    height: 60vh;
+}
+
+
+.section_a_text{
+    margin-top: 7vh;
+    width: 100%;
+    font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+color: white;
+font-size: 3.5em;
+line-height: 11vh;
+    
+}
+.section_a_title p{
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+
+    font-family: Montserrat ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.45em;
+    line-height: 5vh;
+    ;
+    text-align: center;
+    color: white;
+    opacity: 0.8;
+
+    
+}.section_a_zak{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 7.2vh;
+    
+    
+}
+.section_a_zak>div{
+    
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+text-align: center;
+
+color: #E4181F;
+
+}
+.section_b{
+height: 100%;
+    background-color: darkgreen;
+}
+
+.section_b_aty  {
+    margin-bottom: 3vh;
+    font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 3.5em;
+line-height: 11vh;
+/* identical to box height, or 129% */
+
+text-transform: capitalize;
+
+color: #2B2A29;
+
+}
+
+.section_b>.photos{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    justify-content: space-around;
+
+}
+.photos>.lap{
+    background-color: darkgrey;
+    width: 33.3%;
+    
+}
+
+.lap>img{
+    padding: 3%;
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (min-width: 992px) {
+
+    ul>li a{
+      
+    font-size: 0.95em;
+    
+        
+    
+        
+    }
+  
+    .icon_p_ekki{
+        
+        font-size: 0.855em;
+        line-height: 16px;
+    }
+    /* styles for browsers larger than 960px; */
+}
+@media only screen and (max-width: 991px ) 
+{
+
+    
+
+    .section_b_aty {
+        font-size: 2.5em !important;
+        background-color: darkblue;
+    }
+
+    ul>li a{
+
+    font-size: 0.7em;
+    
+        
+    
+        
+    }
+    .section_a_title{
+        font-size: 0.7em;
+    }
+    .section_a_text p{
+        font-size: 0.9em;
+    }
+
+    
+
+    .icon_p>.icon_p_bir{
+
+        font-size: 0.8em;
+    
+    }
+    .icon_p>.icon_p_eki{
+        width: 100%;
+        font-size: 0.8em;
+    
+    }
+
+    .icon_p{
+        display: flex;
+       
+    
+    font-size: 0.175em;
+    /* identical to box height */
+    
+    }
+    .icon_p_ekki{
+        
+        font-size: 0.59em;
+        line-height: 16px;
+    }
+    /* styles for browsers larger than 960px; */
+}
+
+
+
+@media only screen and (max-width: 1024px ) 
+{
+    .section_b_aty {
+      
+            margin-bottom: 0vh;
+        font-size: 2.5em !important;
+        background-color: darkblue;
+    }
+
+    ul>li a{
+
+    font-size: 0.7em;
+    
+        
+    
+        
+    }
+
+    .section_a_title p{
+        margin-top: 0vh;
+
+        margin-bottom: 4vh;
+
+       line-height: 3vh !important;
+    }
+
+    .section_a_title{
+        margin-top: 0vh;
+
+        font-size: 0.7em;
+    }
+    .section_a_text p{
+        font-size: 0.8em;
+    }
+
+    .section_a_text {
+        margin-top: 0vh;
+        line-height: 7vh;
+
+
+    }
+    .section{
+        height: 30vh;
+    }.lap> img{
+        width: 100%;
+        height: 100%;
+        }
+    
+    
+
+
+    .section_a_zak{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 30%;
+        height: 4.2vh;
+        background-color: white;
+        
+    }
+    .section_a_zak>div{
+        
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.8em;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #E4181F;
+    
+    }
+
+
+    .iconss_bir>.icon{
+        background: #E4181F;
+        border-radius: 50%;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    height: 3vh;
+    margin: 0% !important;
+    
+    padding: 0;
+    width: 18%;
+    }
+    .icon>img{
+        display: flex;
+        width: 70%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .iconss_eki>.icon_b{
+        background: #E4181F;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    height: 3vh;
+    width: 22.75% !important;
+    }
+
+
+
+
+.ppp>img{
+    width:80%;
+}
+
+
+
+
+
+}
